@@ -1,0 +1,10 @@
+E:\SteamLibrary\steamapps\common\Elin\BepInEx\plugins\Duplicate Furniture\PickQuestRewards-main\obj\Debug\DuplicateTicketFurniture.csproj.AssemblyReference.cache
+E:\SteamLibrary\steamapps\common\Elin\BepInEx\plugins\Duplicate Furniture\PickQuestRewards-main\obj\Debug\DuplicateTicketFurniture.csproj.CoreCompileInputs.cache
+E:\SteamLibrary\steamapps\common\Elin\BepInEx\plugins\Duplicate Furniture\PickQuestRewards-main\obj\Debug\Duplicat.38286BCA.Up2Date
+E:\SteamLibrary\steamapps\common\Elin\BepInEx\plugins\Duplicate Furniture\PickQuestRewards-main\obj\Debug\DuplicateTicketFurniture.dll
+E:\SteamLibrary\steamapps\common\Elin\BepInEx\plugins\Duplicate Furniture\DuplicateTicketFurniture.dll
+E:\MEGA\Documents\Mods\Elin\test\obj\Debug\DuplicateTicketFurniture.csproj.AssemblyReference.cache
+E:\MEGA\Documents\Mods\Elin\test\obj\Debug\DuplicateTicketFurniture.csproj.CoreCompileInputs.cache
+E:\MEGA\Documents\Mods\Elin\test\obj\Debug\Duplicat.38286BCA.Up2Date
+E:\MEGA\Documents\Mods\Elin\test\obj\Debug\DuplicateTicketFurniture.dll
+E:\MEGA\Documents\Mods\Elin\DuplicateTicketFurniture.dll

@@ -1,0 +1,76 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{2A51490F-5629-4686-8BAA-8BB31740B80D}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <RootNamespace>DuplicateTicketFurniture</RootNamespace>
+    <AssemblyName>DuplicateTicketFurniture</AssemblyName>
+    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
+    <LangVersion>12.0</LangVersion>
+    <Nullable>enable</Nullable>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>false</DebugSymbols>
+    <DebugType>none</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>..\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <GenerateSerializationAssemblies>Auto</GenerateSerializationAssemblies>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="0Harmony">
+          <HintPath>E:\SteamLibrary\steamapps\common\Elin\BepInEx\core\0Harmony.dll</HintPath>
+        </Reference>
+        <Reference Include="BepInEx.Core">
+          <HintPath>E:\SteamLibrary\steamapps\common\Elin\BepInEx\core\BepInEx.Core.dll</HintPath>
+        </Reference>
+        <Reference Include="BepInEx.Unity">
+          <HintPath>E:\SteamLibrary\steamapps\common\Elin\BepInEx\core\BepInEx.Unity.dll</HintPath>
+        </Reference>
+        <Reference Include="Elin">
+          <HintPath>E:\SteamLibrary\steamapps\common\Elin\Elin_Data\Managed\Elin.dll</HintPath>
+        </Reference>
+        <Reference Include="Plugins.BaseCore">
+          <HintPath>E:\SteamLibrary\steamapps\common\Elin\Elin_Data\Managed\Plugins.BaseCore.dll</HintPath>
+        </Reference>
+        <Reference Include="Plugins.Sound">
+          <HintPath>E:\SteamLibrary\steamapps\common\Elin\Elin_Data\Managed\Plugins.Sound.dll</HintPath>
+        </Reference>
+        <Reference Include="Plugins.UI">
+          <HintPath>E:\SteamLibrary\steamapps\common\Elin\Elin_Data\Managed\Plugins.UI.dll</HintPath>
+        </Reference>
+        <Reference Include="System"/>
+        <Reference Include="System.Core"/>
+        <Reference Include="System.Data"/>
+        <Reference Include="System.Xml"/>
+        <Reference Include="UnityEngine">
+          <HintPath>E:\SteamLibrary\steamapps\common\Elin\Elin_Data\Managed\UnityEngine.dll</HintPath>
+        </Reference>
+        <Reference Include="UnityEngine.CoreModule">
+          <HintPath>E:\SteamLibrary\steamapps\common\Elin\Elin_Data\Managed\UnityEngine.CoreModule.dll</HintPath>
+        </Reference>
+        <Reference Include="UnityEngine.UI">
+          <HintPath>E:\SteamLibrary\steamapps\common\Elin\Elin_Data\Managed\UnityEngine.UI.dll</HintPath>
+        </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="DuplicateTicketFurniture.cs" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
